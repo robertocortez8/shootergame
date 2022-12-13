@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\MyShot.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{A3A8C511-B3DC-4A69-97A2-10F657631FB4}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MyShot.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\MyShotEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{22C27AEF-BE98-4AFD-8604-0B9189EF5677}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\MyShot">
+      <UniqueIdentifier>{8BABF269-DA34-4D65-A569-C06E6DB969CF}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MyShot\MyShot.Build.cs">
+      <Filter>Source\MyShot</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\MyShot\MyShot.cpp">
+      <Filter>Source\MyShot</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MyShot\MyShot.h">
+      <Filter>Source\MyShot</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MyShot\MyShotGameModeBase.cpp">
+      <Filter>Source\MyShot</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MyShot\MyShotGameModeBase.h">
+      <Filter>Source\MyShot</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MyShot\ShotAnimInstance.cpp">
+      <Filter>Source\MyShot</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MyShot\ShotAnimInstance.h">
+      <Filter>Source\MyShot</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MyShot\ShotCharacter.cpp">
+      <Filter>Source\MyShot</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MyShot\ShotCharacter.h">
+      <Filter>Source\MyShot</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
